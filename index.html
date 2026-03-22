@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suncatch Lemon Farm | 太陽と潮風が育む、こだわりの完熟レモン</title>
+    <meta name="description" content="瀬戸内の温暖な気候と潮風が育んだ、皮まで安心して食べられる私たちのレモン。農園直送で新鮮な香りをお届けします。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">Suncatch <span>Lemon Farm</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in-up">太陽の恵みを、<br>そのままあなたへ。</h1>
+            <p class="hero-subtitle fade-in-up delay-1">皮まで食べられる、安心で美味しい完熟レモン</p>
+            <a href="#products" class="btn primary-btn fade-in-up delay-2">商品を見る</a>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll</span>
+        </div>
+    </header>
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text slide-in-left">
+                    <span class="section-tag">Our Story</span>
+                    <h2 class="section-title">海風と太陽が育てる<br>奇跡のひとしずく</h2>
+                    <p>私たちの農園は、温暖な気候と穏やかな海風に恵まれた急斜面に位置しています。太陽の光をたっぷりと浴び、ミネラル豊富な潮風を受けて育つレモンは、驚くほど芳醇な香りと、まろやかな酸味が特徴です。</p>
+                    <p>農薬を極力減らし、一つ一つ手作業で丁寧に育て上げることで、皮ごと安心して食べていただけるレモンを作っています。一口かじれば、瀬戸内の風景が広がるような、そんな体験をお届けします。</p>
+                </div>
+                <div class="about-image slide-in-right">
+                    <img src="lemon_farmer_hands.png" alt="農家の手とレモン">
+                    <div class="glass-card">
+                        <h3>100%</h3>
+                        <p>Hand Picked</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products section-padding" id="products">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <span class="section-tag">Products</span>
+                <h2 class="section-title">農園からのお届けもの</h2>
+                <p>収穫したての新鮮なレモンを、農園から直接お届けします。</p>
+            </div>
+            <div class="product-grid">
+                <div class="product-card fade-in-up delay-1">
+                    <div class="product-img-wrapper">
+                        <img src="fresh_lemons_basket.png" alt="完熟イエローレモン">
+                        <span class="badge">おすすめ</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>完熟イエローレモン (3kg)</h3>
+                        <p class="price">¥3,500 <span>(税込)</span></p>
+                        <p class="desc">樹上でギリギリまで完熟させた、果汁たっぷりのイエローレモン。蜂蜜漬けやレモネードに最適です。</p>
+                        <button class="btn secondary-btn w-100">カートに追加</button>
+                    </div>
+                </div>
+                
+                <div class="product-card fade-in-up delay-2">
+                    <div class="product-img-wrapper">
+                        <img src="lemon_farmer_hands.png" alt="グリーンレモン">
+                    </div>
+                    <div class="product-info">
+                        <h3>早摘みグリーンレモン (3kg)</h3>
+                        <p class="price">¥3,200 <span>(税込)</span></p>
+                        <p class="desc">香りが最も強く、キリッとした酸味が特徴。お酒や料理のアクセントにぴったりです。（秋季限定）</p>
+                        <button class="btn secondary-btn w-100" disabled>現在品切れ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="contact-box fade-in-up">
+                <h2 class="section-title text-center">お問い合わせ</h2>
+                <p class="text-center subtitle">飲食店様向けの卸売や、ご不明点などのご相談も承っております。</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">お名前</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">メールアドレス</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">メッセージ内容</label>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">メッセージを送信</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="logo">Suncatch <span>Lemon Farm</span></div>
+                    <p>太陽と潮風が育む、こだわりの完熟レモン。<br>自然の恵みをそのままに。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#products">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Suncatch Lemon Farm. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
